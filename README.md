@@ -5,13 +5,15 @@
 
 ## Team Members
 
-Jenil - Backend and setup
-Jerry - A* algorithm
-Jashkiran - HTML and CSS
-Sid - JavaScript
+## Team Members
+
+- Jenil - Flask backend, A* solver and testing
+- Jerry - Technical report and documentation
+- Jashkiran - HTML and CSS interface
+- Sid - JavaScript controls and animation
 
 ## Files
-
+git add solver.py test_solver.py README.md
 app.py - Flask backend
 solver.py - A* solver
 test_solver.py - Tests
