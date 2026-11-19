@@ -5,8 +5,6 @@
 
 ## Team Members
 
-## Team Members
-
 - Jenil - Flask backend, A* solver and testing
 - Jerry - Technical report and documentation
 - Jashkiran - HTML and CSS interface
