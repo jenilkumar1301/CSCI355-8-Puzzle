@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Puzzle Solver</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>8-Puzzle Solver</h1>
+
+        <p>
+            Welcome to the 8-Puzzle Solver!
+            Click Randomize to mix the puzzle.
+            Click Solve to find the solution using A*.
+        </p>
+
+        <div id="board" class="board"></div>
+
+        <div class="buttons">
+            <button id="randomBtn">Randomize</button>
+            <button id="solveBtn">Solve</button>
+        </div>
+
+        <p id="status">Click Randomize to start.</p>
+
+        <p>Moves: <span id="moveCount">0</span></p>
+    </div>
+
+</body>
+</html>
