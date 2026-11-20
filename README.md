@@ -1,36 +1,62 @@
 
 # CSCI 355 - 8 Puzzle Solver
 
-8-Puzzle Solver using A* Search Algorithm.
+This is our 8-puzzle project for CSCI 355. We are using the A* algorithm to solve the puzzle and find the shortest path to the goal state.
 
-## Team Members
+## Group Members
 
-- Jenil - Flask backend, A* solver and testing
-- Jerry - Technical report and documentation
-- Jashkiran - HTML and CSS interface
-- Sid - JavaScript controls and animation
+- Jenil - Backend, A* solver and testing
+- Jerry - Report
+- Jashkiran - HTML and CSS
+- Sid - JavaScript and animation
 
-## Files
-git add solver.py test_solver.py README.md
-app.py - Flask backend
-solver.py - A* solver
-test_solver.py - Tests
-templates/index.html - Webpage
-static/style.css - Styling
-static/script.js - Animation
+## Project Files
 
-## Run
+- app.py - Flask application
+- solver.py - A* algorithm
+- test_solver.py - Tests for the solver
+- templates/index.html - Webpage
+- static/style.css - CSS
+- static/script.js - Puzzle animation
 
-Install requirements:
+## Running the Project
 
-pip install -r requirements.txt
+First install Flask:
 
-Start the program:
+    pip install -r requirements.txt
 
-python3 app.py
+Then run:
 
-Open http://127.0.0.1:5000
+    python3 app.py
+
+Open http://127.0.0.1:5000 in your browser.
+
+## How It Works
+
+The puzzle has 8 numbered tiles and one empty space. We use 0 for the empty space.
+
+Our solver uses A* search with Manhattan distance to find the solution.
+
+The goal is:
+
+    1 2 3
+    4 5 6
+    7 8 0
+
+The webpage will have two buttons:
+- Randomize - Shuffles the puzzle
+- Solve - Shows the moves to solve it
 
 ## Testing
 
-python3 -m unittest test_solver.py
+To test the solver, run:
+
+    python3 -m unittest test_solver.py
+
+We have 6 basic tests for the solver, including solved, one-move, two-move and unsolvable boards.
+
+## Current Progress
+
+The backend and A* solver are done. All 6 solver tests passed.
+
+We are still working on the HTML, CSS and JavaScript parts. Once those are added, we will test the complete project.
