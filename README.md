@@ -58,12 +58,13 @@ We have 6 basic tests for the solver, including solved, one-move, two-move and u
 ## Current Progress
 
 
+
 ## Current Progress
 
 The backend, A* solver, HTML, CSS and JavaScript are completed.
 
-All 6 unit tests passed.
+All 6 solver tests passed.
 
-We tested the application in the browser. The Randomize button shuffles the puzzle, and the Solve button shows the solution step by step.
+We tested the project in the browser. Both Randomize and Solve buttons are working, and the puzzle shows the solution step by step.
 
-The project is working. We are preparing the report and video demonstration.
+We are now working on the report and video demonstration.
