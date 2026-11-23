@@ -57,10 +57,6 @@ We have 6 basic tests for the solver, including solved, one-move, two-move and u
 
 ## Current Progress
 
-
-
-## Current Progress
-
 The backend, A* solver, HTML, CSS and JavaScript are completed.
 
 All 6 solver tests passed.
